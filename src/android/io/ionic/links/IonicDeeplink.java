@@ -5,8 +5,6 @@
  * Thanks to Eddy Verbruggen and nordnet for the great custom URl scheme and
  * unviversal links plugins this plugin was inspired by.
  *
- * https://github.com/EddyVerbruggen/Custom-URL-scheme
- * https://github.com/nordnet/cordova-universal-links-plugin
  */
 package io.ionic.links;
 

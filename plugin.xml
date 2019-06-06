@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="ionic-plugin-deeplinks" version="1.0.20">
-	<name>Ionic Deeplink Plugin</name>
-	<description>Ionic Deeplink Plugin</description>
+	<name>Universal and Deeplink Plugin</name>
+	<description>Hardcoded universal and deep linking for Entel Personas App</description>
 	<license>MIT</license>
-	<keywords>Ionic,deeplinks,deeplinking</keywords>
-	<repo>https://github.com/ionic-team/ionic-plugin-deeplink.git</repo>
-	<issue>https://github.com/ionic-team/ionic-plugin-deeplink/issues</issue>
+	<keywords>deeplinks,deeplinking,universallinks</keywords>
+	<repo>https://github.com/Cranorve/ionic-plugin-deeplink.git</repo>
+	<issue>https://github.com/Cranorve/ionic-plugin-deeplink/issues</issue>
 
 	<!-- android -->
 	<platform name="android">
@@ -45,6 +45,8 @@
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.BROWSABLE" />
 				<data android:scheme="https" android:host="app.entel.cranorve.cl" android:pathPrefix="/open" />
+				<data android:scheme="https" android:host="app.entel.cranorve.cl" android:pathPrefix="/Entel/*" />
+				<data android:scheme="https" android:host="app.entel.cranorve.cl" android:pathPrefix="/ul/*" />
 			</intent-filter>
 		</config-file>
 
